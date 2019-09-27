@@ -15,7 +15,7 @@ contract GP_Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("GAME.PAY", "GP", 8) {
+    constructor () public ERC20Detailed("GAMEPAY", "GPAY", 8) {
         _mint(msg.sender, INITIAL_SUPPLY);
     }
 }
